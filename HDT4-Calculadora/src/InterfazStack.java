@@ -3,6 +3,6 @@ public interface InterfazStack<T> {
 
 	void push (T dato);
 	T pop ();
-	Boolean EstaLleno();
+	Boolean EstaVacio();
 	
 }
