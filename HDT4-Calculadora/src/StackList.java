@@ -1,4 +1,11 @@
+public abstract class StackList<T> extends Stack<T>  {
 
-public abstract class StackList extends Stack implements InterfazStackList {
+	
+	public abstract void push(T dato);
+	
+	public abstract T pop();
 
+	public abstract Boolean EstaVacio();
+
+	
 }
