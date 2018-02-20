@@ -6,7 +6,7 @@ public abstract class Stack <T> implements InterfazStack<T> {
 
 	public abstract T pop();
 
-	public abstract Boolean EstaLleno(); 
+	public abstract Boolean EstaVacio(); 
 	
 
 	
