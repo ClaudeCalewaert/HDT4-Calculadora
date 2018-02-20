@@ -1,4 +1,4 @@
 
-public abstract class StackList extends Stack {
+public abstract class StackList extends Stack implements InterfazStackList {
 
 }
