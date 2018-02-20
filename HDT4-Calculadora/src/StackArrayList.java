@@ -30,8 +30,7 @@ public class StackArrayList<T> extends Stack<T>{
 	
 		T ultimo;
 		
-		ultimo = arreglo.get(arreglo.size()-1);
-		arreglo.remove(ultimo);
+		ultimo = arreglo.remove(arreglo.size()-1);
 		
 		return ultimo;
 	}
