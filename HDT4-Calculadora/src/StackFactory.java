@@ -1,7 +1,9 @@
 
 public class StackFactory {
 
-	public void Stack() {
+	public Stack ImplementarTipoDeStack() {
+		
+		return null;
 		
 	}
 	
