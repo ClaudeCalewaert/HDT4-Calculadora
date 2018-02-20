@@ -1,7 +1,7 @@
 
 public class StackFactory {
 
-	public Stack ImplementarTipoDeStack() {
+	public <T> Stack ImplementarTipoDeStack() {
 		
 		return null;
 		
